@@ -17,19 +17,19 @@
 ### 2. Escopo
 
   Este projeto terá as seguintes funcionalidades:
-•	Cadastro de animais disponíveis para adoção;
-•	Busca e filtragem de animais por características como espécie, idade e porte;
-•	Solicitação de adoção por parte dos usuários;
-•	Gerenciamento de adoções, incluindo aprovação, recusa e solicitação de informações adicionais;
-•	Acompanhamento pós-adoção para garantir o bem-estar dos animais adotados.
+- Cadastro de animais disponíveis para adoção;
+-	Busca e filtragem de animais por características como espécie, idade e porte;
+-	Solicitação de adoção por parte dos usuários;
+-	Gerenciamento de adoções, incluindo aprovação, recusa e solicitação de informações adicionais;
+-	Acompanhamento pós-adoção para garantir o bem-estar dos animais adotados.
 
 <!-- Apresentar restrições de funcionalidades e de escopo. -->
 ### 3. Restrições
 
   Neste trabalho, não serão considerados:
-•	Integração com serviços de pagamento para doações;
-•	Implementação de um aplicativo móvel nativo;
-•	Monitoramento em tempo real da localização dos animais.
+-	Integração com serviços de pagamento para doações;
+-	Implementação de um aplicativo móvel nativo;
+-	Monitoramento em tempo real da localização dos animais.
 
 
 <!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
