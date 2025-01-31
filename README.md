@@ -35,5 +35,5 @@
 <!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
 ### 4. Protótipo
 
-  Protótipos para as páginas principais foram elaborados e podem ser encontrados [aqui]([https://www.figma.com/design/meVE5jhU8wmZu5DWZBcBr0/ViraLar?m=auto&t=n2yYHuVriw1zePYo-1](https://www.figma.com/design/8d3PiwqfCpq230gtPuuViG/ViraLar?node-id=0-1&t=uCpC57AdVJ4xHEYq-1)). As telas incluem:
+  Protótipos para as páginas principais foram elaborados e podem ser encontrados [aqui](https://www.figma.com/design/8d3PiwqfCpq230gtPuuViG/ViraLar?node-id=0-1&t=uCpC57AdVJ4xHEYq-1). As telas incluem:
 
