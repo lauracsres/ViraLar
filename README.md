@@ -36,4 +36,7 @@
 ### 4. Protótipo
 
   Protótipos para as páginas principais foram elaborados e podem ser encontrados [aqui](https://www.figma.com/design/8d3PiwqfCpq230gtPuuViG/ViraLar?node-id=0-1&t=uCpC57AdVJ4xHEYq-1). As telas incluem:
+  - Tela inicial com apresentação da plataforma;
+  - Tela de cadastro e listagem de animais;
+
 
