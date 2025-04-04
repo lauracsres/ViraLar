@@ -57,6 +57,6 @@ Inicie o frontend com npm run dev.
 
 ### 6. Referências
 
-Documentação oficial do React: https://react.dev/
-Documentação oficial do Express.js: https://expressjs.com/
-Documentação oficial do MySQL: https://dev.mysql.com/doc/
+- Documentação oficial do React: https://react.dev/
+- Documentação oficial do Express.js: https://expressjs.com/
+- Documentação oficial do MySQL: https://dev.mysql.com/doc/
