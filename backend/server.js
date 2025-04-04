@@ -12,7 +12,6 @@ app.use(cors({
 app.use(express.json()); // Permite envio de JSON
 
 const uploadsPath = path.join(__dirname, "uploads");
-console.log(`🗂️ Servindo arquivos estáticos da pasta: ${uploadsPath}`);
 
 app.use("/api/uploads", express.static(uploadsPath));  // Servir imagens
 
@@ -21,5 +20,4 @@ app.use("/api", routes);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`🚀 Servidor rodando na porta ${PORT}`);
 });
