@@ -7,35 +7,21 @@ Este projeto consiste no desenvolvimento de um sistema para adoção de animais,
 
 ### 1. Funcionalidades implementadas
 
-Listagem de animais disponíveis para adoção.
-
-Exibição de detalhes individuais de cada animal.
-
-Formulário para solicitação de adoção.
-
-Autenticação de administrador para acesso ao painel de controle.
-
-Painel administrativo com listagem e gerenciamento de animais.
-
-Controle de solicitações de adoção no painel administrativo.
-
-Upload e exibição de imagens dos animais.
+- Listagem de animais disponíveis.
+- Exibição de detalhes de cada animal.
+- Formulário para solicitação de adoção.
+- Controle de solicitações de adoção.
 
 ### 2. Funcionalidades previstas e não implementadas
 
-Funcionalidade de busca e filtragem avançada de animais.
-
-Funcionalidade de acompanhamento das adoções.
+- Funcionalidade de busca e filtragem avançada de animais.
+- Funcionalidade de acompanhamento das adoções.
 
 A não implementação dessas funcionalidades se deu devido a limitações de tempo e complexidade adicional que exigiria ajustes na arquitetura do sistema.
 
 ### 3. Outras funcionalidades implementadas
 
-Proteção de rotas administrativas utilizando contexto de autenticação.
-
-Interface responsiva para melhorar a experiência do usuário em diferentes dispositivos.
-
-Sistema de logout para administradores.
+- Proteção de rotas administrativas utilizando contexto de autenticação.
 
 ### 4. Principais desafios e dificuldades
 
@@ -51,7 +37,7 @@ Clonar o repositório:
 
 git clone <https://github.com/lauracsres/ViraLar)>
 
-Configurar o backend:
+- Configurar o backend:
 
 Acesse a pasta do backend.
 
@@ -61,7 +47,7 @@ Configure o banco de dados MySQL.
 
 Execute o servidor com node server.js.
 
-Configurar o frontend:
+- Configurar o frontend:
 
 Acesse a pasta do frontend.
 
