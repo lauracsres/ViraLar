@@ -35,7 +35,7 @@ Esses desafios foram superados através de pesquisa, testes e ajustes na configu
 
 Clonar o repositório:
 
-git clone <https://github.com/lauracsres/ViraLar)>
+git clone <https://github.com/lauracsres/ViraLar>
 
 - Configurar o backend:
 
