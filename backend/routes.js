@@ -9,12 +9,10 @@ const router = express.Router();
 // Configuração do multer para upload de imagens
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    console.log("📂 Salvando imagem na pasta uploads/");
     cb(null, "uploads/"); // Pasta onde as imagens serão salvas
   },
   filename: (req, file, cb) => {
     const uniqueName = Date.now() + path.extname(file.originalname);
-    console.log("📸 Nome da imagem salva:", uniqueName);
     cb(null, uniqueName); // Nome único para cada imagem
   },
 });
@@ -34,7 +32,6 @@ router.post("/login", (req, res) => {
 
   db.query(query, [username], (err, results) => {
     if (err) {
-      console.error("Erro no banco de dados:", err);
       return res.status(500).json({ success: false, message: "Erro no servidor" });
     }
 
@@ -74,8 +71,6 @@ router.post("/animais", upload.single("imagem"), (req, res) => {
 
   const { nome, especie, raca, idade, sexo, porte, cor, temperamento, historico_saude } = req.body;
   const imagem_url = req.file ? `/api/uploads/${req.file.filename}` : null;
-
-  console.log("📜 Dados recebidos:", { nome, especie, raca, idade, sexo, porte, cor, temperamento, historico_saude, imagem_url });
 
   if (!nome || !especie || !idade || !sexo || !porte) {
     return res.status(400).json({ success: false, message: "Preencha todos os campos obrigatórios!" });
